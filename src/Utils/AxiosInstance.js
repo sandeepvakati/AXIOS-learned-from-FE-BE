@@ -1,8 +1,8 @@
 import axios from "axios";
 
 const axiosInstance = axios.create({
-    baseURL: 'http://localhost:3000',
-    timeout:1000,
+    baseURL: 'https://axios-learned-from-fe-be.onrender.com',
+    timeout: 10000,
 });
 
 export default axiosInstance;
